@@ -1,3 +1,6 @@
+- 폴더 구조
+  - FSD/Feature-Sliced Design
+
 - 패키지 매니저
   - npm
 <br>
