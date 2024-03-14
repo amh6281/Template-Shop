@@ -9,7 +9,7 @@ const Footer = () => {
     "/icon/youtube.png",
   ];
   return (
-    <div className="flex flex-col gap-5">
+    <div className="flex flex-col gap-5 fixed bottom-10 left-0 w-full">
       <div className="w-full flex items-center justify-center gap-5">
         {images.map((image, index) => (
           <Image key={index} src={image} alt="icon" width={30} height={30} />
