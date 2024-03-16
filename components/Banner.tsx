@@ -1,9 +1,10 @@
+"use client";
+
 import Image from "next/image";
-import React from "react";
 
 const Banner = () => {
   return (
-    <div className="grid place-items-center">
+    <div className="grid place-items-center bg-zinc-50">
       <Image
         src="/banner/banner1.jpeg"
         alt="Banner"
