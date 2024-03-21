@@ -1,10 +1,11 @@
-import Banner from "@/components/Banner";
-import React from "react";
+import { Banner } from "@/components/atom";
+import { CategoryList } from "@/components/molecule";
 
 const Home = () => {
   return (
-    <div className="">
+    <div className="flex flex-col gap-20">
       <Banner />
+      <CategoryList />
     </div>
   );
 };

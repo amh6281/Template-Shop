@@ -1,18 +1,27 @@
+import { ItemList } from "@/constants/Item";
 import Image from "next/image";
 
 const CategoryItem = () => {
   return (
-    <div className="px-5">
-      <span className="text-xl ml-1">카테고리 1</span>
-      <div className="flex flex-col">
-        <Image
-          src="https://via.placeholder.com/200"
-          alt="카테고리1"
-          width={200}
-          height={200}
-        />
-        <span className="w-[200px] text-center">상품 이름1</span>
-      </div>
+    <div className="flex flex-col gap-5">
+      {ItemList.map((category, index) => (
+        <div className="px-5" key={index}>
+          <span className="text-xl ml-1">{category.title}</span>
+          <div className="flex gap-4">
+            {category.item.map((item, index) => (
+              <div key={index} className="flex flex-col items-center">
+                <Image
+                  src={item.img}
+                  alt={item.name}
+                  width={200}
+                  height={200}
+                />
+                <span className="w-[200px] text-center">{item.name}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      ))}
     </div>
   );
 };
