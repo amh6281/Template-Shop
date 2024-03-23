@@ -1,4 +1,4 @@
-import { CategoryItem } from "../atom";
+import { CategoryItem } from '../atom';
 
 const CategoryList = () => {
   return (

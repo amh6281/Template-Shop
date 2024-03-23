@@ -1,1 +1,1 @@
-export { footerLinks, footerImages } from "./navigation";
+export * from './navigation';

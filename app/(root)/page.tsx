@@ -1,5 +1,5 @@
-import { Banner } from "@/components/atom";
-import { CategoryList } from "@/components/molecule";
+import { Banner } from '@/components/atom';
+import { CategoryList } from '@/components/molecule';
 
 const Home = () => {
   return (

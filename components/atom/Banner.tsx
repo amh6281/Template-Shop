@@ -1,12 +1,12 @@
-"use client";
+'use client';
 
-import Image from "next/image";
-import { useState, useEffect } from "react";
+import Image from 'next/image';
+import { useState, useEffect } from 'react';
 
 const bannerImages = [
-  "/banner/banner1.jpeg",
-  "/banner/banner2.jpeg",
-  "/banner/banner3.jpeg",
+  '/banner/banner1.jpeg',
+  '/banner/banner2.jpeg',
+  '/banner/banner3.jpeg',
 ];
 
 const Banner = () => {
